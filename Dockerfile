@@ -1,2 +1,2 @@
 FROM alpine
-RUN apk add git openssh-client
+RUN apk add --no-cache git openssh-client
